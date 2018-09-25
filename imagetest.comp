@@ -11,5 +11,6 @@ void main()
         return;
 
     float res = 233.0;
+    
     imageStore(top_blob, ivec2(gl_GlobalInvocationID.xy), vec4(res));
 }
